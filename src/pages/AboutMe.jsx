@@ -7,7 +7,7 @@ const AboutMe = () => {
     <div>
         <Header/>
 
-        <section classname="about-section">
+        <section className="about-section">
             <h2>About</h2>
             <article>
                 <p>
