@@ -1,12 +1,10 @@
 import React from 'react'
-import Header from '../components/Header'
-import Footer from '../components/Footer'
+
 
 const Contact = () => {
   return (
     <div>
         
-      <Header/>
 
       <section className="contact-section">
             <h2>Contact</h2>
@@ -17,8 +15,6 @@ const Contact = () => {
                     <h3>GitHub</h3>
                         <p>View my profile and repositories <a href="https://github.com/villettec">here</a></p>
         </section>
-
-      <Footer/>
 
     </div>
   )

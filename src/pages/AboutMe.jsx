@@ -1,11 +1,9 @@
 import React from 'react'
-import Header from '../components/Header'
-import Footer from '../components/Footer'
 
 const AboutMe = () => {
   return (
     <div>
-        <Header/>
+       
 
         <section className="about-section">
             <h2>About</h2>
@@ -19,7 +17,6 @@ const AboutMe = () => {
             </article>
         </section>
 
-        <Footer/>
     
     </div >
 
