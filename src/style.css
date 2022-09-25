@@ -12,7 +12,7 @@ main {
 body {
     background-color: var(--bgcolor);
     background-size: 700px 700px;
-    background-image: url("../images/rosebg.jpg");
+    background-image: url("../public/images/rosebg.jpg");
     background-size: 1100px 700px;
     background-repeat: no-repeat;
     background-position-x: right;
@@ -23,7 +23,8 @@ body {
     border: 1px solid var(--bgcolor);;
     background-color: var(--bgcolor);
     min-width: 230px;
-    height: 100vh;
+    margin-top: -90px;
+    height: 110vh;
     position: fixed;
 }
 
@@ -231,6 +232,20 @@ a:active {
     margin: 10px;
 }
 
+.resume-section h1 {
+    font-size: 40px;
+    font-family: "Dancing Script", cursive;
+    color: black;
+    font-size: 70px;
+    filter: drop-shadow(1px 1px 1px rgb(88, 86, 86));
+    text-align: center;
+}
+
+.resume-pic {
+    filter: drop-shadow(3px 3px 3px rgb(88, 86, 86));
+    width: 100vh;
+    margin-left: 400px;
+}
 
 /* Mobile*/
 @media screen 

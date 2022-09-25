@@ -16,7 +16,10 @@ const Navigation = (props) => {
       <a href="#Portfolio" className="projects-button" onClick={()=>props.setCurrentPage("Portfolio")}>Portfolio</a>
       </li>
       <li>
-        <button className="contact-button" type="button">Contact</button>
+        <a href="#Contact" className="contact-button" onClick={()=>props.setCurrentPage("Contact")}>Contact</a>
+      </li>
+      <li>
+        <a href="#Resume" className="resume-button" onClick={()=>props.setCurrentPage("Resume")}>Resume</a>
       </li>
     </ul>
   </nav>
@@ -26,28 +29,6 @@ const Navigation = (props) => {
     <a href="mailto: villette@live.com"><i className="fa-solid fa-envelope" /></a>
   </div>
 </section>
-
-
-
-
-
-
-        <nav>
-            <ul>
-            <li>
-              <a href = "#About" onClick={()=>props.setCurrentPage("About")}>About</a>
-            </li>
-            <li>
-              <a href="#Portfolio" onClick={()=>props.setCurrentPage("Portfolio")}>Portfolio</a>
-            </li>
-            <li>
-              <a href="#Resume" onClick={()=>props.setCurrentPage("Resume")}>Resume</a>
-            </li>
-            <li>
-              <a href="#Contact" onClick={()=>props.setCurrentPage("Contact")}>Contact</a>
-            </li>
-            </ul>
-        </nav>
     </>
   )
 }
