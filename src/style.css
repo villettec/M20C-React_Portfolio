@@ -232,19 +232,27 @@ a:active {
     margin: 10px;
 }
 
+.resume-section {
+    margin-top: 40px;
+    margin-left: 320px;
+    margin-right: 30px;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+}
+
 .resume-section h1 {
     font-size: 40px;
+    padding-top: 60px;
     font-family: "Dancing Script", cursive;
     color: black;
     font-size: 70px;
     filter: drop-shadow(1px 1px 1px rgb(88, 86, 86));
-    text-align: center;
 }
 
 .resume-pic {
     filter: drop-shadow(3px 3px 3px rgb(88, 86, 86));
     width: 100vh;
-    margin-left: 400px;
 }
 
 /* Mobile*/
