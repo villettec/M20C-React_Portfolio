@@ -1,5 +1,14 @@
 import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
+// npm i --save @fortawesome/fontawesome-svg-core
+// npm install --save @fortawesome/free-solid-svg-icons
+// npm install --save @fortawesome/react-fontawesome
+// npm i @fortawesome/free-brands-svg-icons
+
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import {faEnvelope} from '@fortawesome/free-solid-svg-icons'
+import {faGithub} from '@fortawesome/free-brands-svg-icons'
+import {faLinkedin} from '@fortawesome/free-brands-svg-icons'
 
 const Navigation = (props) => {
   return (
@@ -25,9 +34,9 @@ const Navigation = (props) => {
     </ul>
   </nav>
   <div className="icon-links">
-    <a href="https://www.linkedin.com/in/villette-comfort-80ab86234/"><i className="fa-brands fa-linkedin" /></a>
-    <a href="https://github.com/villettec"><i className="fa-brands fa-github" /></a>
-    <a href="mailto: villette@live.com"><i className="fa-solid fa-envelope" /><FontAwesomeIcon icon="coffee" /></a>
+    <a href="https://www.linkedin.com/in/villette-comfort-80ab86234/"><FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon></a>
+    <a href="https://github.com/villettec"><FontAwesomeIcon icon={faGithub}></FontAwesomeIcon></a>
+    <a href="mailto: villette@live.com"><FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon></a>
   </div>
 </section>
     </>

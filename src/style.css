@@ -50,12 +50,29 @@ nav {
 
 ul {
     list-style-type: none;
+    text-align: center;
 }
 
 li {
     color: black;
     margin-top: 10px;
-    padding: 10px;
+    padding: 10px 0px 10px 0px;
+    margin-left: -40px;
+}
+
+.sidebar a:link {
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar a:hover {
+    text-decoration: none;
+    color: rgb(183, 128, 151);
 }
 
 .icon-links {
@@ -113,22 +130,18 @@ li {
 
 a:link {
     text-decoration: none;
-    color: black;
 }
 
 a:visited {
     text-decoration: none;
-    color: black;
 }
 
 a:hover {
     text-decoration: none;
-    color: black;
 }
 
 a:active {
     text-decoration: none;
-    color: black;
 }
 
 
