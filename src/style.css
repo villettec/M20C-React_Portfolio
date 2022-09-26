@@ -48,16 +48,14 @@ nav {
     font-size: 20px;
 }
 
-button {
-    color: black;
-    margin-top: 20px;
-    padding: 10px;
-    border: none;
-    background-color: var(--bgcolor);;
+ul {
+    list-style-type: none;
 }
 
-button:focus {
-    outline: none;
+li {
+    color: black;
+    margin-top: 10px;
+    padding: 10px;
 }
 
 .icon-links {
@@ -115,19 +113,24 @@ button:focus {
 
 a:link {
     text-decoration: none;
+    color: black;
 }
 
 a:visited {
     text-decoration: none;
+    color: black;
 }
 
 a:hover {
     text-decoration: none;
+    color: black;
 }
 
 a:active {
     text-decoration: none;
+    color: black;
 }
+
 
 .capture {
     /* height: 100%; gives actual height*/

@@ -1,4 +1,5 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Navigation = (props) => {
   return (
@@ -10,23 +11,23 @@ const Navigation = (props) => {
   <nav>
     <ul>
       <li>
-        <a href = "#About" className="about-button" onClick={()=>props.setCurrentPage("About")}>About</a>
+        <a href = "#About" className="about-button button" onClick={()=>props.setCurrentPage("About")}>About</a>
       </li>
       <li>
-      <a href="#Portfolio" className="projects-button" onClick={()=>props.setCurrentPage("Portfolio")}>Portfolio</a>
+      <a href="#Portfolio" className="projects-button button" onClick={()=>props.setCurrentPage("Portfolio")}>Portfolio</a>
       </li>
       <li>
-        <a href="#Contact" className="contact-button" onClick={()=>props.setCurrentPage("Contact")}>Contact</a>
+        <a href="#Contact" className="contact-button button" onClick={()=>props.setCurrentPage("Contact")}>Contact</a>
       </li>
       <li>
-        <a href="#Resume" className="resume-button" onClick={()=>props.setCurrentPage("Resume")}>Resume</a>
+        <a href="#Resume" className="resume-button button" onClick={()=>props.setCurrentPage("Resume")}>Resume</a>
       </li>
     </ul>
   </nav>
   <div className="icon-links">
     <a href="https://www.linkedin.com/in/villette-comfort-80ab86234/"><i className="fa-brands fa-linkedin" /></a>
     <a href="https://github.com/villettec"><i className="fa-brands fa-github" /></a>
-    <a href="mailto: villette@live.com"><i className="fa-solid fa-envelope" /></a>
+    <a href="mailto: villette@live.com"><i className="fa-solid fa-envelope" /><FontAwesomeIcon icon="coffee" /></a>
   </div>
 </section>
     </>
