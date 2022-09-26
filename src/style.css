@@ -267,6 +267,27 @@ a:active {
     filter: drop-shadow(1px 1px 1px rgb(88, 86, 86));
 }
 
+.resume-section p {
+    font-family: var(--font);
+    font-size: 20px;
+    margin-top: -20px;
+}
+
+.resume-section a:link {
+    text-decoration: none;
+    color: black;
+}
+
+.resume-section a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.resume-section a:hover {
+    text-decoration: none;
+    color: rgb(183, 128, 151);
+}
+
 .resume-pic {
     filter: drop-shadow(3px 3px 3px rgb(88, 86, 86));
     width: 100vh;

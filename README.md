@@ -1,10 +1,10 @@
 # React Portfolio
 
 ## Application Description
-
+The application is deployed on both github and vercel. While working on the code as a developer, it is viewed by using 'npm start' in the terminal command. The application has a sidebar as the static header component with navigation links for About, Portfolio, Resume, and Contact. Below these links are also icons for GitHub, LinkedIn, and email. The About has a brief biography, Portfolio is linked to each deployment or walkthrough video through the screenshot image with the repo in the description, Resume has the resume, and Contact page has methods of contact. Each of of these are displayed as components through changes in state in React.
 
 ## Challenge Description
-The task was to create a portfolio, using React skills to help differentiate from other developers whose portfolios don’t use the latest technologies.  There needed to be navigation links leading to pages for an About section, Portfolio projects, Resume, and Contact section with icons for contact links as well. 
+The task was to create a portfolio, using React skills to help differentiate oneself from other developers whose portfolios don’t use the latest technologies.  There needed to be navigation links leading to pages for an About section, Portfolio projects, Resume, and Contact section with icons for contact links as well. 
 
 ## User Story
 
@@ -58,10 +58,10 @@ The CSS document includes:
 * Google font usage
 
 The JSX documents include:
-* 
-* 
-* 
-* 
+* imports and exports
+* const variables and functions
+* props
+* pages with separate components
 
 
 ## Languages
