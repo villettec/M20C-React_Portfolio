@@ -233,7 +233,12 @@ a:active {
     text-align: center;
 }
 
-.contact-section h3 {
+.contact-section form {
+    text-align: center;
+    font-family: var(--font);
+}
+
+/* .contact-section h3 {
     text-align: left;
     font-family: var(--font);
     color: black;
@@ -247,7 +252,7 @@ a:active {
     font-family: var(--font);
     font-size: 20px;
     margin: 10px;
-}
+} */
 
 .resume-section {
     margin-top: 80px;
