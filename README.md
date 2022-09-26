@@ -70,10 +70,10 @@ The JSX documents include:
 
 
 ## Links
-* [Repository](https://github.com/villettec/M12C-Employee_Tracker)
+* [Repository](https://github.com/villettec/react-portfolio)
 
 ## Screenshots
-![image](./assets/images/readme-screenshot.png)
+![image](./public/images/readme-screenshot.png)
 
 ## Credit
 Villette Comfort
