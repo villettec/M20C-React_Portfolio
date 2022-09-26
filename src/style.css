@@ -295,6 +295,8 @@ a:active {
 
 .footer {
     font-family: var(--font);
+    font-size: 15px;
+    margin-left: 780px;
 }
 
 /* Mobile*/
