@@ -1,17 +1,28 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Contact = () => {
+  const [name, setName] = useState("");
+  const [message, setMessage] = useState("");
+  const [email, setEmail] = useState("");
+
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+    emailjs.sendForm('default_service', 'template_e31v30b', form.current, 'bpABHUMS77_w_7Kzf')
       .then((result) => {
           console.log(result.text);
+          toast.success("Email has been sent");
+          setName("");
+          setEmail("");
+          setMessage("");
       }, (error) => {
           console.log(error.text);
+          toast.error("Error: please try again")
       });
   };
 
@@ -19,19 +30,18 @@ const Contact = () => {
     <section className="contact-section">
     <h2>Contact</h2>
     <form ref={form} onSubmit={sendEmail}>
-    
-      <p>
+              <p>
       <label>Name</label>
       </p>
       <p>
-      <input type="text" name="user_name" />
+      <input type="text" name="user_name" value={name} onChange={(e)=>setName(e.target.value)}/>
       </p>
 
       <p>
       <label>Email</label>
       </p>
       <p>
-      <input type="email" name="user_email" />
+      <input type="email" name="user_email" value={email} onChange={(e)=>setEmail(e.target.value)}/>
       </p>
 
       
@@ -39,7 +49,7 @@ const Contact = () => {
       <label>Message</label>
       </p>
       <p>
-      <textarea name="message" />
+      <textarea name="message" value={message} onChange={(e)=>setMessage(e.target.value)}/>
       </p>
       <p>
       <input type="submit" value="Send" />

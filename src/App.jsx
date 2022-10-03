@@ -6,6 +6,8 @@ import Resume from "./pages/Resume";
 import Header from './components/Header';
 import Footer from './components/Footer';
 import "./style.css"
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   const [currentPage, setCurrentPage] = useState("About");
@@ -26,6 +28,15 @@ function App() {
   return (
     <div>
         <Header setCurrentPage={setCurrentPage}/>
+        <ToastContainer 
+        position="top-center"
+        autoClose={5000}
+        hideProgressBar={false}
+        closeOnClick={true}
+        pauseOnHover={true}
+        draggable={true}
+        progress={undefined}
+        theme="dark"/>
         {handleChange()}
         <Footer/>
     </div>
