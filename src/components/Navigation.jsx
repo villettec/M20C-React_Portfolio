@@ -34,9 +34,9 @@ const Navigation = (props) => {
     </ul>
   </nav>
   <div className="icon-links">
-    <a href="https://www.linkedin.com/in/villette-comfort-80ab86234/"><FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon></a>
-    <a href="https://github.com/villettec"><FontAwesomeIcon icon={faGithub}></FontAwesomeIcon></a>
-    <a href="mailto: villette@live.com"><FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon></a>
+    <a href="https://www.linkedin.com/in/villette-comfort-80ab86234/"><FontAwesomeIcon icon={faLinkedin} color="rgb(183, 128, 151)"></FontAwesomeIcon></a>
+    <a href="https://github.com/villettec"><FontAwesomeIcon icon={faGithub} color="rgb(183, 128, 151)"></FontAwesomeIcon></a>
+    <a href="mailto: villette@live.com"><FontAwesomeIcon icon={faEnvelope} color="rgb(183, 128, 151)"></FontAwesomeIcon></a>
   </div>
 </section>
     </>

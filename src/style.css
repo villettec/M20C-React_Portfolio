@@ -83,7 +83,7 @@ li {
 
 .icon-links a {
     font-size: 30px;
-    color:rgb(183, 128, 151);
+    /* Doesn't work, have to code on html: color:rgb(183, 128, 151); */ 
     margin-right: 20px;
 }
 

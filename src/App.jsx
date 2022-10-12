@@ -4,7 +4,6 @@ import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";
 import Header from './components/Header';
-import Footer from './components/Footer';
 import "./style.css"
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -38,7 +37,6 @@ function App() {
         progress={undefined}
         theme="dark"/>
         {handleChange()}
-        <Footer/>
     </div>
   );
 }
