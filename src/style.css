@@ -14,7 +14,7 @@ body {
     background-color: var(--bgcolor);
     background-size: 700px 700px;
     background-image: url("../public/images/rosebg.jpg");
-    background-size: 1100px 700px;
+    background-size: 1150px 850px;
     background-repeat: no-repeat;
     background-position-x: right;
 }
@@ -296,12 +296,6 @@ a:active {
 .resume-pic {
     filter: drop-shadow(3px 3px 3px rgb(88, 86, 86));
     width: 100vh;
-}
-
-.footer {
-    font-family: var(--font);
-    font-size: 15px;
-    margin-left: 780px;
 }
 
 /* Mobile*/
