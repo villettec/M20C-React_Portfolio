@@ -1,7 +1,7 @@
 import React from 'react'
 import Navigation from './Navigation'
 
-const Header = (props) => {
+const Sidebar = (props) => {
   return (
     <div>
         <Navigation setCurrentPage={props.setCurrentPage}/>
@@ -9,4 +9,4 @@ const Header = (props) => {
   )
 }
 
-export default Header
+export default Sidebar

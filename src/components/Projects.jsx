@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Project = () => {
+const Projects = () => {
   return (
     <div>
       
@@ -142,12 +142,12 @@ const Project = () => {
       </div>
     </div>
     <div className="project-container">
-      <a href="project-url-goes-here" target="_blank">
-        <img src="../../images/placeholder.png" alt="Placeholder Image" className="capture" />
+      <a href="https://pacific-refuge-15715.herokuapp.com/" target="_blank">
+        <img src="../../images/moodify.png" alt="Moodify Screenshot" className="capture" />
       </a>
       <div className="project-description">
-        <h3>Project</h3>
-        <p>Coming Soon . . .</p>
+        <h3>Moodify</h3>
+        <p>This collaborative MERN full stack project allows authenticated users to login and generate music playlists based on the Spotify API.<a href="https://github.com/batgal/Moodify"> Repo.</a></p>
       </div>
     </div>
   </div>
@@ -157,4 +157,4 @@ const Project = () => {
   )
 }
 
-export default Project
+export default Projects

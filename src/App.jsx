@@ -3,7 +3,7 @@ import AboutMe from "./pages/AboutMe";
 import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";
-import Header from './components/Header';
+import Sidebar from './components/Sidebar';
 import "./style.css"
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -26,7 +26,7 @@ function App() {
   };
   return (
     <div>
-        <Header setCurrentPage={setCurrentPage}/>
+        <Sidebar setCurrentPage={setCurrentPage}/>
         <ToastContainer 
         position="top-center"
         autoClose={5000}
