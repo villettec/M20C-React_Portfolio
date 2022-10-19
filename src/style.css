@@ -5,7 +5,8 @@
 /* Main  */
 :root {
     --font: 'Montserrat', sans-serif;
-    --bgcolor: rgb(244, 241, 241);
+    --bgColor: rgb(244, 241, 241);
+    --dustyGrey: rgb(183, 128, 151);
 }
 
 main {
@@ -13,35 +14,34 @@ main {
 }
 
 body {
-    background-color: var(--bgcolor);
-    background-size: 700px 700px;
+    background-color: var(--bgColor);
     background-image: url("../public/images/rosebg.jpg");
-    background-size: 200vh;
+    background-size: 100vw;
     background-repeat: repeat;
     background-position-x: right;
 }
 
 /* Sidebar */
 .sidebar {
+    margin-top: -11vh;
+    background-color: var(--bgColor);
+    border: 1px solid var(--bgColor);;
     filter: drop-shadow(2px 2px 2px rgb(147, 146, 146));
-    border: 1px solid var(--bgcolor);;
-    background-color: var(--bgcolor);
-    min-width: 230px;
-    margin-top: -90px;
-    height: 110vh;
+    min-width: 20vw;
+    height: 105vh;
     position: fixed;
 }
 
 .sidebar h1 {
     font-family: "Dancing Script", cursive;
-    padding-top: 30px;
-    font-size: 30px;
+    padding-top: 7vh;
+    font-size: 200%;
     text-align: center;
     filter: drop-shadow(1px 1px 1px rgb(224, 168, 191));
 }
 
 .profile-pic {
-    margin: 30px 20px;
+    margin: 6vh 3vw 4vh 3vw;
     justify-content: center;
 }
 
@@ -49,7 +49,7 @@ body {
 nav {
     text-align: center;
     font-family: var(--font);
-    font-size: 20px;
+    font-size: 125%;
 }
 
 ul {
@@ -330,7 +330,7 @@ a:active {
 /* Mobile*/
 @media screen 
 and (min-width : 250px) 
-and (max-width : 1024px) {
+and (max-width : 440px) {
     .sidebar {
         margin-top: 0vh;
         position: relative;
