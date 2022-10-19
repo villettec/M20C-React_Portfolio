@@ -329,6 +329,8 @@ and (max-width : 440px) {
         filter: none;
     }
     .profile-pic {
+        margin-top: 3vh;
+        margin-bottom: 3vh;
         width:50%;
         height: auto;
     }
@@ -379,6 +381,9 @@ and (max-width : 440px) {
         margin-left: 3vw;
         margin-right: 3vw;
         filter: none;
+    }
+    .resume-pic {
+        width: 80vw;
     }
     .contact-section {
         margin-top: 3vh;;
