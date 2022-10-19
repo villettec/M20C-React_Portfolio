@@ -23,7 +23,7 @@ body {
 
 /* Sidebar */
 .sidebar {
-    margin-top: -11vh;
+    margin-top: -15vh;
     background-color: var(--bgColor);
     border: 1px solid var(--bgColor);;
     filter: drop-shadow(2px 2px 2px rgb(147, 146, 146));
@@ -59,9 +59,9 @@ ul {
 
 li {
     color: black;
-    margin-top: 10px;
-    padding: 10px 0px 10px 0px;
-    margin-left: -40px;
+    margin-top: 1.5vh;
+    padding: 1.1vh 0vw 1.1vh 0vw;
+    margin-left: -3vw;
 }
 
 .sidebar a:link {
@@ -85,13 +85,13 @@ li {
 
 .icon-links {
     text-align: center;
-    margin-left: 20px;
+    margin-left: 1vw;
 }
 
 .icon-links a {
-    font-size: 30px;
+    font-size: 200%;
     /* Doesn't work, have to code on html: color:rgb(183, 128, 151); */ 
-    margin-right: 20px;
+    margin-right: 2vw;
 }
 
 /* About */
@@ -99,25 +99,24 @@ li {
     text-align: center;
     background-color: white;
     filter: drop-shadow(3px 3px 3px rgb(88, 86, 86));
-    margin-top: 80px;
-    margin-left: 60vh;
-    margin-right: 20vh;
-    padding: 20px;
+    margin-top: 15vh;
+    margin-left: 30vw;
+    margin-right: 8vw;
+    padding: 3vw;
     opacity: .8;
 }
 
 .about-section h2 {
     margin-top: 5vh;
-    font-size: 40px;
+    font-size: 400%;
     font-family: "Dancing Script", cursive;
     color: black;
-    font-size: 70px;
     filter: drop-shadow(1px 1px 1px rgb(88, 86, 86));
 }
 
 .about-section article {
     font-family: var(--font);
-    font-size: 20px;
+    font-size: 125%;
     padding: 30px;
     line-height: 30px;
 }
