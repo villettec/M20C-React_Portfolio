@@ -16,13 +16,19 @@ const Contact = () => {
     emailjs.sendForm('default_service', 'template_e31v30b', form.current, 'bpABHUMS77_w_7Kzf')
       .then((result) => {
           console.log(result.text);
-          toast.success("Email has been sent");
+          toast.success('Email has been sent.', {
+            position: toast.POSITION.TOP_CENTER,
+            className: 'toast-message'
+        })
           setName("");
           setEmail("");
           setMessage("");
       }, (error) => {
           console.log(error.text);
-          toast.error("Error: please try again")
+          toast.error("Error: please try again", {
+            position: toast.POSITION.TOP_CENTER,
+            className: 'toast-message'
+          })
       });
   };
 

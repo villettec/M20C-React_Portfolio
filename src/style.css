@@ -231,6 +231,14 @@ li {
     text-align: center;
 }
 
+.toast-message {
+    background: var(--dustyPink);
+    color: white;
+    font-size: 200%;
+    width: 30vw;
+    font-family: var(--font);
+}
+
 .contact-section form {
     text-align: center;
     font-family: var(--font);
