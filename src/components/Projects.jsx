@@ -8,7 +8,7 @@ const Projects = () => {
   <h2 className="projects-header">Projects</h2>
   <div className="grid-container">
     <div className="project-container">
-      <a href="https://villettec.github.io/M6C-Weather_Dashboard/" target="_blank">
+      <a href="https://villettec.github.io/M6C-Weather_Dashboard/" target="_blank" rel="noopener noreferrer">
         <img src="../../images/weather-pic.png" alt="Weather Application Screenshot" className="capture" />
       </a>
       <div className="project-description">
@@ -18,7 +18,7 @@ const Projects = () => {
       </div>
     </div>
     <div className="project-container">
-      <a href="https://villettec.github.io/M3C-Password_Generator/" target="_blank">
+      <a href="https://villettec.github.io/M3C-Password_Generator/" target="_blank" rel="noopener noreferrer">
         <img src="../../images/pwgen-pic.png" alt="Password Generator Screenshot" className="capture" />
       </a>
       <div className="project-description">
@@ -28,7 +28,7 @@ const Projects = () => {
       </div>
     </div>
     <div className="project-container">
-      <a href="https://villettec.github.io/M4C-Code_Quiz/" target="_blank">
+      <a href="https://villettec.github.io/M4C-Code_Quiz/" target="_blank" rel="noopener noreferrer">
         <img src="../../images/codequiz-pic.png" alt="Coding Quiz Application Screenshot" className="capture" />
       </a>
       <div className="project-description">
@@ -38,7 +38,7 @@ const Projects = () => {
       </div>
     </div>
     <div className="project-container">
-      <a href="https://villettec.github.io/M5C-Work_Day_Scheduler/" target="_blank">
+      <a href="https://villettec.github.io/M5C-Work_Day_Scheduler/" target="_blank" rel="noopener noreferrer">
         <img src="../../images/workday-pic.png" alt="Workday Schedular Screenshot" className="capture" />
       </a>
       <div className="project-description">
@@ -48,7 +48,7 @@ const Projects = () => {
       </div>
     </div>
     <div className="project-container">
-      <a href="https://villettec.github.io/M1C-Horiseon_Refactor/" target="_blank">
+      <a href="https://villettec.github.io/M1C-Horiseon_Refactor/" target="_blank" rel="noopener noreferrer">
         <img src="../../images/horiseon-pic.png" alt="Horiseon Webpage Screenshot" className="capture" />
       </a>
       <div className="project-description">
@@ -58,7 +58,7 @@ const Projects = () => {
       </div>
     </div>
     <div className="project-container">
-      <a href="https://villettec.github.io/To_Do_List/" target="_blank">
+      <a href="https://villettec.github.io/To_Do_List/" target="_blank" rel="noopener noreferrer">
         <img src="../../images/todolist-pic.png" alt="To Do List Application Screenshot" className="capture" />
       </a>
       <div className="project-description">
@@ -68,7 +68,7 @@ const Projects = () => {
       </div>
     </div>
     <div className="project-container">
-      <a href="https://drive.google.com/file/d/1xEc5dGCMxg9jQJAEgl2gr7tFUggt9csY/view" target="_blank">
+      <a href="https://drive.google.com/file/d/1xEc5dGCMxg9jQJAEgl2gr7tFUggt9csY/view" target="_blank" rel="noopener noreferrer">
         <img src="../../images/readme-generator.png" alt="Readme Generator Screenshot" className="capture" />
       </a>
       <div className="project-description">
@@ -78,7 +78,7 @@ const Projects = () => {
       </div>
     </div>
     <div className="project-container">
-      <a href="https://drive.google.com/file/d/1KmxmDwexHAd3-ArprAiwq4150nN4-XlP/view" target="_blank">
+      <a href="https://drive.google.com/file/d/1KmxmDwexHAd3-ArprAiwq4150nN4-XlP/view" target="_blank" rel="noopener noreferrer">
         <img src="../../images/team-generator.png" alt="Team Generator Screenshot" className="capture" />
       </a>
       <div className="project-description">
@@ -88,7 +88,7 @@ const Projects = () => {
       </div>
     </div>
     <div className="project-container">
-      <a href="https://notetaker1919.herokuapp.com/" target="_blank">
+      <a href="https://notetaker1919.herokuapp.com/" target="_blank" rel="noopener noreferrer">
         <img src="../../images/notetaker.png" alt="Notetaker App Screenshot" className="capture" />
       </a>
       <div className="project-description">
@@ -97,7 +97,7 @@ const Projects = () => {
       </div>
     </div>
     <div className="project-container">
-      <a href="https://drive.google.com/file/d/1KTWOEwyQQSdrUgAcKb-xXisQM5x822gi/view" target="_blank">
+      <a href="https://drive.google.com/file/d/1KTWOEwyQQSdrUgAcKb-xXisQM5x822gi/view" target="_blank" rel="noopener noreferrer">
         <img src="../../images/employee-tracker.png" alt="Employee Tracker Screenshot" className="capture" />
       </a>
       <div className="project-description">
@@ -106,7 +106,7 @@ const Projects = () => {
       </div>
     </div>
     <div className="project-container">
-      <a href="https://drive.google.com/file/d/18J5KsgklGl5sVr95FuhWW2x5DYE5weUv/view" target="_blank">
+      <a href="https://drive.google.com/file/d/18J5KsgklGl5sVr95FuhWW2x5DYE5weUv/view" target="_blank" rel="noopener noreferrer">
         <img src="../../images/ecommerce-backend-pic.png" alt="Ecommerce Screenshot" className="capture" />
       </a>
       <div className="project-description">
@@ -115,7 +115,7 @@ const Projects = () => {
       </div>
     </div>
     <div className="project-container">
-      <a href="https://tech-blog-001.herokuapp.com/" target="_blank">
+      <a href="https://tech-blog-001.herokuapp.com/" target="_blank" rel="noopener noreferrer">
         <img src="../../images/tech-blog-pic.png" alt="Tech Blog Screenshot" className="capture" />
       </a>
       <div className="project-description">
@@ -124,7 +124,7 @@ const Projects = () => {
       </div>
     </div>
     <div className="project-container">
-      <a href="https://gator-tracker-app.herokuapp.com/" target="_blank">
+      <a href="https://gator-tracker-app.herokuapp.com/" target="_blank" rel="noopener noreferrer">
         <img src="../../images/gator-tracker-pic.png" alt="Gator Tracker Screenshot" className="capture" />
       </a>
       <div className="project-description">
@@ -133,7 +133,7 @@ const Projects = () => {
       </div>
     </div>
     <div className="project-container">
-      <a href="https://youtu.be/SAfwCnJCVzI" target="_blank">
+      <a href="https://youtu.be/SAfwCnJCVzI" target="_blank" rel="noopener noreferrer">
         <img src="../../images/social-network-api-pic.png" alt="Social Network API Screenshot" className="capture" />
       </a>
       <div className="project-description">
@@ -142,7 +142,7 @@ const Projects = () => {
       </div>
     </div>
     <div className="project-container">
-      <a href="https://pacific-refuge-15715.herokuapp.com/" target="_blank">
+      <a href="https://pacific-refuge-15715.herokuapp.com/" target="_blank" rel="noopener noreferrer">
         <img src="../../images/moodify.png" alt="Moodify Screenshot" className="capture" />
       </a>
       <div className="project-description">

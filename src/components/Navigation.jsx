@@ -49,9 +49,9 @@ const Navigation = (props) => {
   </div>
 
   <div className="icon-links">
-    <a href="https://www.linkedin.com/in/villette-comfort-80ab86234/" target="_blank"><FontAwesomeIcon icon={faLinkedin} color="rgb(183, 128, 151)"></FontAwesomeIcon></a>
-    <a href="https://github.com/villettec" target="_blank"><FontAwesomeIcon icon={faGithub} color="rgb(183, 128, 151)"></FontAwesomeIcon></a>
-    <a href="mailto: villette@live.com" target="_blank"><FontAwesomeIcon icon={faEnvelope} color="rgb(183, 128, 151)"></FontAwesomeIcon></a>
+    <a href="https://www.linkedin.com/in/villette-comfort-80ab86234/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} color="rgb(183, 128, 151)"></FontAwesomeIcon></a>
+    <a href="https://github.com/villettec" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} color="rgb(183, 128, 151)"></FontAwesomeIcon></a>
+    <a href="mailto: villette@live.com" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faEnvelope} color="rgb(183, 128, 151)"></FontAwesomeIcon></a>
   </div>
 </section>
     </>
