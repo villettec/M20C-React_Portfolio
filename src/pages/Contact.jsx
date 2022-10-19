@@ -34,14 +34,14 @@ const Contact = () => {
       <label>Name</label>
       </p>
       <p>
-      <input type="text" name="user_name" value={name} onChange={(e)=>setName(e.target.value)}/>
+      <input type="text" className="name-box" name="user_name" value={name} onChange={(e)=>setName(e.target.value)}/>
       </p>
 
       <p>
       <label>Email</label>
       </p>
       <p>
-      <input type="email" name="user_email" value={email} onChange={(e)=>setEmail(e.target.value)}/>
+      <input type="email" className="email-box" name="user_email" value={email} onChange={(e)=>setEmail(e.target.value)}/>
       </p>
 
       
@@ -49,7 +49,7 @@ const Contact = () => {
       <label>Message</label>
       </p>
       <p>
-      <textarea name="message" value={message} onChange={(e)=>setMessage(e.target.value)}/>
+      <textarea name="message" className="message-box" value={message} onChange={(e)=>setMessage(e.target.value)}/>
       </p>
       <p>
       <input type="submit" value="Send" />
