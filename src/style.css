@@ -29,7 +29,7 @@ body {
     filter: drop-shadow(2px 2px 2px rgb(147, 146, 146));
     width: 20vw;
     height: 105vh;
-    position: fixed;
+    position:fixed;
 }
 
 .sidebar h1 {
@@ -58,7 +58,6 @@ nav {
 ul {
     list-style-type: none;
     text-align: center;
-    margin-left: 0px;
 }
 
 li {
@@ -122,15 +121,15 @@ li {
 .about-section article {
     font-family: var(--font);
     font-size: 125%;
-    padding: 30px;
-    line-height: 30px;
+    padding: 3vw;
+    line-height: 150%;
 }
 
 /* Portfolio */
 .projects-section {
-    margin-top: 80px;
-    margin-left: 320px;
-    margin-right: 30px;
+    margin-top: 15vh;
+    margin-left: 24vw;
+    margin-right: 3vw;
     justify-content: center;
     background-color: rgba(255, 255, 255, 0.8);
 }
