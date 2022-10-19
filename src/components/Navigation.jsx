@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faEnvelope} from '@fortawesome/free-solid-svg-icons'
 import {faGithub} from '@fortawesome/free-brands-svg-icons'
@@ -12,6 +12,12 @@ import {faLinkedin} from '@fortawesome/free-brands-svg-icons'
 
 
 const Navigation = (props) => {
+
+  const [active, setActive] = useState(false);
+  const handleClick = () => {
+    setActive(!active);
+  };
+
   return (
     <>
 <section className="sidebar">
@@ -37,7 +43,10 @@ const Navigation = (props) => {
 
   {/* Will only show dropdown navigation in mobile */}
   <div className="dropdown">
-  <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    {/* Button is dusty pink if active, otherwise dusty light greyish pink */}
+  <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onClick={handleClick}
+        style={{ backgroundColor: active ? "rgb(183, 128, 151)" : "rgb(247, 241, 241)" , borderColor: active ? "rgb(183, 128, 151)" : "rgb(183, 128, 151)" }}
+>
     Menu
   </button>
   <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">

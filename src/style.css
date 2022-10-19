@@ -7,7 +7,7 @@
 :root {
     --font: 'Montserrat', sans-serif;
     --bgColor: rgb(244, 241, 241);
-    --dustyGrey: rgb(183, 128, 151);
+    --dustyPink: rgb(183, 128, 151);
 }
 
 main {
@@ -325,11 +325,6 @@ and (max-width : 440px) {
         color:black;
         border-color: rgb(183, 128, 151);
         margin-bottom: 1.7vh;
-    }
-    .dropdown button:active {
-        background-color: rgb(247, 241, 241);
-        color:rgb(183, 128, 151);
-        border-color: rgb(183, 128, 151);
     }
     .dropdown-menu {
         width: 98%;
