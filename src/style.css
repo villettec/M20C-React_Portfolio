@@ -223,7 +223,6 @@ li {
     margin-right: 8vw;
     margin-bottom: 10vh;
     filter: drop-shadow(3px 3px 3px rgb(88, 86, 86));
-    width: 60vw;
     padding: 5vh 0vw;
     opacity: .8;
 }
@@ -381,5 +380,10 @@ and (max-width : 440px) {
         margin-right: 3vw;
         filter: none;
     }
-
+    .contact-section {
+        margin-top: 3vh;;
+        margin-left: 3vw;
+        margin-right: 3vw;
+        filter: none;
+    }
 }
