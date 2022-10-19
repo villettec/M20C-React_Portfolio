@@ -5,6 +5,7 @@ import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";
 import Sidebar from './components/Sidebar';
 import "./style.css"
+// For alerts
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -30,12 +31,12 @@ function App() {
         <ToastContainer 
         position="top-center"
         autoClose={5000}
-        hideProgressBar={false}
+        hideProgressBar={true}
         closeOnClick={true}
         pauseOnHover={true}
         draggable={true}
         progress={undefined}
-        theme="dark"/>
+        theme="light"/>
         {handleChange()}
     </div>
   );
