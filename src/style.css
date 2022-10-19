@@ -14,8 +14,8 @@ body {
     background-color: var(--bgcolor);
     background-size: 700px 700px;
     background-image: url("../public/images/rosebg.jpg");
-    background-size: 1150px 850px;
-    background-repeat: no-repeat;
+    background-size: 200vh;
+    background-repeat: repeat;
     background-position-x: right;
 }
 
@@ -260,6 +260,7 @@ a:active {
     margin-right: 30px;
     justify-content: center;
     background-color: rgba(255, 255, 255, 0.8);
+    background-repeat: 2;
     text-align: center;
 }
 
@@ -302,7 +303,13 @@ a:active {
 @media screen 
 and (min-width : 250px) 
 and (max-width : 1024px) {
+    /* .sidebar {
+
+    }
+    .sidebar h1 {
+    
+    } */
     .grid-container {
         grid-template-columns: repeat(2, 1fr);
-}
+    }
 }
