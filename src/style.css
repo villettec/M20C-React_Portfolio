@@ -330,7 +330,6 @@ and (max-width : 440px) {
         filter: none;
     }
     .profile-pic {
-        margin-left: 11vh;
         width:50%;
         height: auto;
     }
@@ -358,6 +357,12 @@ and (max-width : 440px) {
     .dropdown-item-center {
         padding-left: 21vh;
     }
+    .about-section {
+        margin-top: 3vh;;
+        margin-left: 3vw;
+        margin-right: 3vw;
+        filter: none;
+    }
     .projects-section{
         margin-top: 3vh;;
         margin-left: 3vw;
@@ -370,4 +375,11 @@ and (max-width : 440px) {
         margin-left: 2vw;
         margin-right: 2vw;
     }
+    .resume-section {
+        margin-top: 3vh;;
+        margin-left: 3vw;
+        margin-right: 3vw;
+        filter: none;
+    }
+
 }
