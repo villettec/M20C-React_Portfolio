@@ -84,7 +84,7 @@ li {
 
 .sidebar a:hover {
     text-decoration: none;
-    color: rgb(183, 128, 151);
+    color: var(--dustyPink);
 }
 
 .dropdown {
@@ -295,7 +295,7 @@ li {
 
 .resume-section a:hover {
     text-decoration: none;
-    color: rgb(183, 128, 151);
+    color: var(--dustyPink);
 }
 
 .resume-pic {
@@ -328,10 +328,10 @@ and (max-width : 440px) {
         display: block;
     }
     .dropdown button {
+        /* Active state changed in jsx file */
         width: 100%;
         background-color: rgb(251, 249, 249);
-        color:black;
-        border-color: rgb(183, 128, 151);
+        border-color: var(--dustyPink);
         margin-bottom: 1.7vh;
     }
     .dropdown-menu {
@@ -382,6 +382,9 @@ and (max-width : 440px) {
         margin-left: 3vw;
         margin-right: 3vw;
         filter: none;
+    }
+    .toast-message {
+        width: 100%;
     }
     .contact-section h2 {
         font-size: 400%;
