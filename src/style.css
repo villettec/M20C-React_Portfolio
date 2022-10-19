@@ -369,6 +369,9 @@ and (max-width : 440px) {
         margin-left: 3vw;
         margin-right: 3vw;
     }
+    .projects-header {
+        font-size: 400%;
+    }
     .grid-container {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -382,6 +385,9 @@ and (max-width : 440px) {
         margin-right: 3vw;
         filter: none;
     }
+    .resume-section h1 {
+        font-size: 400%;
+    }
     .resume-pic {
         width: 80vw;
     }
@@ -390,6 +396,9 @@ and (max-width : 440px) {
         margin-left: 3vw;
         margin-right: 3vw;
         filter: none;
+    }
+    .contact-section h2 {
+        font-size: 400%;
     }
     .name-box {
         width: 75vw;
