@@ -241,11 +241,11 @@ li {
 }
 
 .name-box {
-    width: 35vh;
+    width: 20vw;
 }
 
 .email-box {
-    width: 35vh;
+    width: 20vw;
 }
 
 .message-box {
@@ -385,5 +385,15 @@ and (max-width : 440px) {
         margin-left: 3vw;
         margin-right: 3vw;
         filter: none;
+    }
+    .name-box {
+        width: 75vw;
+    }
+    .email-box {
+        width: 75vw;
+    }    
+    .message-box {
+        width: 75vw;
+        height: 30vh;
     }
 }
