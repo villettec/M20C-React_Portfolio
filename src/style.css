@@ -27,7 +27,7 @@ body {
     background-color: var(--bgColor);
     border: 1px solid var(--bgColor);;
     filter: drop-shadow(2px 2px 2px rgb(147, 146, 146));
-    min-width: 20vw;
+    width: 20vw;
     height: 105vh;
     position: fixed;
 }
@@ -41,8 +41,10 @@ body {
 }
 
 .profile-pic {
-    margin: 6vh 3vw 4vh 3vw;
-    justify-content: center;
+    /* this display and margin settings centers an image */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Navigation link styling */
@@ -50,18 +52,21 @@ nav {
     text-align: center;
     font-family: var(--font);
     font-size: 125%;
+    margin-left: -1vw;
 }
 
 ul {
     list-style-type: none;
     text-align: center;
+    margin-left: 0px;
 }
 
 li {
     color: black;
     margin-top: 1.5vh;
-    padding: 1.1vh 0vw 1.1vh 0vw;
-    margin-left: -3vw;
+    padding: 1.1vh 0vw;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .sidebar a:link {
