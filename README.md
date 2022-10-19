@@ -1,10 +1,10 @@
 # React Portfolio
 
 ## Application Description
-The application is deployed on both github and vercel. While working on the code as a developer, it is viewed by using 'npm start' in the terminal command. The application has a sidebar as the static header component with navigation links for About, Portfolio, Resume, and Contact. Below these links are also icons for GitHub, LinkedIn, and email. The About has a brief biography, Portfolio is linked to each deployment or walkthrough video through the screenshot image with the repo in the description, Resume has the resume, and Contact page has methods of contact. Each of of these are displayed as components through changes in state in React.
+The application is deployed on both Vercel and GitHub. While working on the code as a developer, it is viewed by using 'npm start' in the terminal command. The website has 4 pages: About, Contact, Portfolio and Resume. They all have a fixed Sidebar component, which furthermore has a Navigation component inside. The Portfolio page also renders a Projects component. The navigation includes Font Awesome icons, and the pages all use imports from Google Fonts. The contact form uses Email.js to send me the message, and Toastify to alert the user of email success.
 
 ## Challenge Description
-The task was to create a portfolio, using React skills to help differentiate oneself from other developers whose portfolios don’t use the latest technologies.  There needed to be navigation links leading to pages for an About section, Portfolio projects, Resume, and Contact section with icons for contact links as well. 
+The task was to create a portfolio, using React skills to help differentiate oneself from other developers whose portfolios might not use the latest technologies.  There needed to be navigation links leading to pages for an About section, Portfolio projects, Resume, and Contact section with a form and icons for contact links as well. 
 
 ## User Story
 
@@ -45,33 +45,20 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ```
 
-## Tasks Completed
-The HTML document includes:
-* semantic elements
-* alt attributes
-* font awesome icons
-
-The CSS document includes:
-* universal variables
-* features such as sidebars, drop shadows, translucency, grids
-* background image
-* Google font usage
-
-The JSX documents include:
-* imports and exports
-* const variables and functions
-* props
-* pages with separate components
-
-
-## Languages
+## Languages & Tech Stack
 - HTML
+- CSS
 - JavaScript
+- React
+- Toastify alerts
+- Email.js contact form
+- Font Awesome
+- Google Fonts
 
 
 ## Links
 * [Deployment](https://villette.vercel.app)
-* [Repository](https://github.com/villettec/react-portfolio)
+* [Repository](https://github.com/villettec/Portfolio-React)
 
 ## Screenshots
 ![image](./public/images/readme-screenshot.png)
