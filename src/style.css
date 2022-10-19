@@ -155,7 +155,7 @@ li {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 2fr);
-    grid-gap: 30px;
+    grid-gap: 2.5vw;
     grid-auto-flow: dense;
 }
 
@@ -174,7 +174,6 @@ li {
 
 .capture {
     height: auto;
-    margin-bottom: -2px;
     width: 100%;
     align-items: top;
     opacity: .86;
@@ -193,17 +192,18 @@ li {
 
 .project-description h3 {
     color: white;
-    font-size: 20px;
+    font-size: 120%;
     font-family: var(--font);
-    margin-top: 15px;
+    margin-top: 1vh;
+    text-align: center;
 }
 
 .project-description p {
-    font-size: 15px;
+    font-size: 100%;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    line-height: 20px;
-    margin: 8px;
+    line-height: 130%;
+    margin: 1vh;
     /* text-overflow: ellipsis; */
 }
 
@@ -325,9 +325,6 @@ and (max-width : 440px) {
         color:black;
         border-color: rgb(183, 128, 151);
         margin-bottom: 1.7vh;
-    }
-    .dropdown button:visited {
-        background-color: rgb(251, 249, 249);
     }
     .dropdown-menu {
         width: 98%;
