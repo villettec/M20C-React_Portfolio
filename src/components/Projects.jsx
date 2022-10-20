@@ -58,13 +58,13 @@ const Projects = () => {
       </div>
     </div>
     <div className="project-container">
-      <a href="https://villettec.github.io/To_Do_List/" target="_blank" rel="noopener noreferrer">
+      <a href="https://villettec.github.io/JS-To_Do_List/" target="_blank" rel="noopener noreferrer">
         <img src="../../images/todolist-pic.png" alt="To Do List Application Screenshot" className="capture" />
       </a>
       <div className="project-description">
         <h3>To Do List Maker</h3>
         <p>This To Do List application allows a user to input tasks and mark them as completed which
-          strikes them out or later deletes them. Tasks can be filtered by completion.<a href="https://github.com/villettec/To_Do_List/"> Repo.</a></p>
+          strikes them out or later deletes them. Tasks can be filtered by completion.<a href="https://github.com/villettec/JS-To_Do_List/"> Repo.</a></p>
       </div>
     </div>
     <div className="project-container">
@@ -153,7 +153,7 @@ const Projects = () => {
       </div>
     </div>
     <div className="project-container">
-      <a href="https://pacific-refuge-15715.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+      <a href="https://villettec.github.io/School_Resources/" target="_blank" rel="noopener noreferrer">
         <img src="../../images/school-resources-pic.png" alt="School Resource Library Screenshot" className="capture" />
       </a>
       <div className="project-description">
