@@ -152,6 +152,29 @@ const Projects = () => {
         <p>This collaborative MERN full stack project allows authenticated users to login and generate music playlists based on the Spotify API.<a href="https://github.com/batgal/Moodify"> Repo.</a></p>
       </div>
     </div>
+    <div className="project-container">
+      <a href="https://pacific-refuge-15715.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+        <img src="../../images/school-resources-pic.png" alt="School Resource Library Screenshot" className="capture" />
+      </a>
+      <div className="project-description">
+        <h3>School Resource Library</h3>
+        <p>This full stack JavaScript website uses 3 API's to enable students to view school library books based on subject.<a href="https://github.com/villettec/School_Resources"> Repo.</a></p>
+      </div>
+    </div>
+    <div className="project-container">
+        <img src="../../images/placeholder.png" alt="Placeholder" className="capture" />
+      <div className="project-description">
+        <h3>Project</h3>
+        <p>Coming soon...</p>
+      </div>
+    </div>
+    <div className="project-container">
+        <img src="../../images/placeholder.png" alt="Placeholder" className="capture" />
+      <div className="project-description">
+        <h3>Project</h3>
+        <p>Coming soon...</p>
+      </div>
+    </div>
   </div>
 </section>
       
