@@ -45,8 +45,7 @@ const Navigation = (props) => {
   <div className="dropdown">
     {/* Button is dusty pink if active, otherwise dusty light greyish pink */}
   <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onClick={handleClick}
-        style={{ backgroundColor: active ? "rgb(183, 128, 151)" : "rgb(251, 249, 249))" , borderColor: active ? "rgb(183, 128, 151)" : "rgb(183, 128, 151)", color: active ? "rgb(251, 249, 249)" : "rgb(183, 128, 151)" }}
->
+        style={{ backgroundColor: active ? "rgb(183, 128, 151)" : "rgb(251, 249, 249))" , borderColor: active ? "rgb(183, 128, 151)" : "rgb(183, 128, 151)", color: active ? "rgb(251, 249, 249)" : "rgb(183, 128, 151)" }}>
     Menu
   </button>
   <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
