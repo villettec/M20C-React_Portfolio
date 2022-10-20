@@ -102,7 +102,9 @@ const Projects = () => {
       </a>
       <div className="project-description">
         <h3>Employee Tracker</h3>
+        <div className="p-div">
         <p>This is a MySQl application that allows users to update the database via node prompts. A walkthrough video is above.<a href="https://github.com/villettec/M12C-Employee_Tracker"> Repo.</a></p>
+        </div>
       </div>
     </div>
     <div className="project-container">

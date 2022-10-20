@@ -1,13 +1,16 @@
 import React, {useState} from "react";
+
+import Sidebar from './components/Sidebar';
+
 import AboutMe from "./pages/AboutMe";
 import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";
-import Sidebar from './components/Sidebar';
-import "./style.css"
 // For alerts
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+
+import "./style.css"
 
 function App() {
   const [currentPage, setCurrentPage] = useState("About");
