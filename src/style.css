@@ -47,6 +47,8 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 7vh;
+    margin-bottom: 7vh;
     width: 17vw;
     height: auto;
 }
@@ -321,6 +323,9 @@ and (max-width : 440px) {
         height: 90%;
         filter: none;
     }
+    .sidebar h1 {
+        font-size: 180%;
+    }
     .profile-pic {
         margin-top: 3vh;
         margin-bottom: 3vh;
@@ -338,8 +343,10 @@ and (max-width : 440px) {
         width: 100%;
         background-color: white;
         border-color: var(--dustypink);
-        margin-bottom: 1.7vh;
+        margin-bottom: 2.3vh;
         border-radius: 0px;
+        height: 6vh;
+        font-size: 130%;
     }
     .dropdown-menu {
         width: 98%;
@@ -352,13 +359,13 @@ and (max-width : 440px) {
         margin-left: 7vw;
     }
     .about-section {
-        margin-top: 3vh;;
+        margin-top: 1vh;;
         margin-left: 3vw;
         margin-right: 3vw;
         filter: none;
     }
     .projects-section{
-        margin-top: 3vh;;
+        margin-top: 1vh;;
         margin-left: 3vw;
         margin-right: 3vw;
     }
@@ -374,7 +381,7 @@ and (max-width : 440px) {
         margin-right: 2vw;
     }
     .resume-section {
-        margin-top: 3vh;;
+        margin-top: 1vh;;
         margin-left: 3vw;
         margin-right: 3vw;
         filter: none;
@@ -386,7 +393,7 @@ and (max-width : 440px) {
         width: 80vw;
     }
     .contact-section {
-        margin-top: 3vh;;
+        margin-top: 1vh;;
         margin-left: 3vw;
         margin-right: 3vw;
         filter: none;
