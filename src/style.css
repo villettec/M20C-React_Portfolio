@@ -6,7 +6,7 @@
 :root {
     --font: 'Montserrat', sans-serif;
     --bgColor: rgb(244, 241, 241);
-    --dustyPink: rgb(183, 128, 151);
+    --dustyPink: #82856f;
 }
 
 main {
