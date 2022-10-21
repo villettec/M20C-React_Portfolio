@@ -25,7 +25,7 @@ body {
 /* Sidebar */
 .sidebar {
     margin-top: -15vh;
-    background-color: #f7f2ed;
+    background-color: #f8f3f1;
     border: 1px solid var(--bgColor);;
     filter: drop-shadow(2px 2px 2px rgb(147, 146, 146));
     width: 20vw;
