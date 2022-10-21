@@ -317,6 +317,9 @@ li {
 @media screen 
 and (min-width : 250px) 
 and (max-width : 440px) {
+    body {
+        background-image: url("../public/images/orchid-mobile.jpg");
+    }
     .sidebar {
         margin-top: 0vh;
         position: relative;
