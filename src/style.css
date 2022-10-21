@@ -6,7 +6,8 @@
 :root {
     --font: 'Montserrat', sans-serif;
     --bgColor: rgb(244, 241, 241);
-    --dustyPink: #82856f;
+    --dusty: #82856f;
+    --dustypink: #e6d2d2;
 }
 
 main {
@@ -15,7 +16,7 @@ main {
 
 body {
     background-color: var(--bgColor);
-    background-image: url("../public/images/rosebg.jpg");
+    background-image: url("../public/images/orchidbg.jpg");
     background-size: 100vw;
     background-repeat: repeat;
     background-position-x: right;
@@ -38,7 +39,6 @@ body {
     padding-top: 7vh;
     font-size: 150%;
     text-align: center;
-    /* filter: drop-shadow(1px 1px 1px rgb(224, 168, 191)); */
 }
 
 .profile-pic {
@@ -85,7 +85,7 @@ li {
 
 .sidebar a:hover {
     text-decoration: none;
-    color: var(--dustyPink);
+    color: var(--dusty);
 }
 
 .dropdown {
@@ -107,7 +107,6 @@ li {
 .about-section {
     text-align: center;
     background-color: white;
-    filter: drop-shadow(3px 3px 3px rgb(88, 86, 86));
     margin-top: 15vh;
     margin-left: 30vw;
     margin-right: 8vw;
@@ -121,7 +120,6 @@ li {
     font-size: 400%;
     font-family: "Dancing Script", cursive;
     color: black;
-    filter: drop-shadow(1px 1px 1px rgb(88, 86, 86));
 }
 
 .about-section article {
@@ -150,7 +148,6 @@ li {
     text-align: center;
     font-family: "Dancing Script", cursive;
     font-size: 500%;
-    filter: drop-shadow(1px 1px 1px rgb(88, 86, 86));
 }
 
 .grid-container {
@@ -167,7 +164,7 @@ li {
     background-color: rgb(170, 207, 247);
     display: flex;
     flex-direction: column;
-    filter: drop-shadow(3px 3px 3px rgb(88, 86, 86));
+    filter: drop-shadow(2px 2px 2px rgb(130, 128, 128));
     height: auto;
 }
 
@@ -189,7 +186,7 @@ li {
 }
 
 .project-description {
-    background-color: rgb(73, 73, 73);
+    background-color: rgb(218, 214, 214);
     align-items: bottom;
     height: 100%;
 
@@ -201,7 +198,6 @@ li {
 }
 
 .project-description h3 {
-    color: white;
     font-size: 120%;
     font-family: var(--font);
     margin-top: 2vh;
@@ -212,7 +208,7 @@ li {
     /* text-overflow: ellipsis; */
     font-size: 100%;
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    color: rgb(97, 96, 96);
     margin: 1.5vh;
 }
 
@@ -227,7 +223,6 @@ li {
     margin-left: 30vw;
     margin-right: 8vw;
     margin-bottom: 10vh;
-    filter: drop-shadow(3px 3px 3px rgb(88, 86, 86));
     padding: 5vh 0vw;
     opacity: .8;
 }
@@ -236,14 +231,14 @@ li {
     font-size: 450%;
     font-family: "Dancing Script", cursive;
     color: black;
-    filter: drop-shadow(1px 1px 1px rgb(88, 86, 86));
     text-align: center;
 }
 
 .toast-message {
-    background: var(--dustyPink);
-    color: white;
+    background: var(--dustypink);
+    color: black;
     font-size: 200%;
+    font-weight: 300;
     width: 30vw;
     font-family: var(--font);
 }
@@ -284,7 +279,6 @@ li {
     padding-top: 5vh;
     font-family: "Dancing Script", cursive;
     color: black;
-    filter: drop-shadow(1px 1px 1px rgb(88, 86, 86));
 }
 
 .resume-section p {
@@ -306,7 +300,7 @@ li {
 
 .resume-section a:hover {
     text-decoration: none;
-    color: var(--dustyPink);
+    color: var(--dusty);
 }
 
 .resume-pic {
@@ -342,7 +336,7 @@ and (max-width : 440px) {
         /* Active state changed in jsx file */
         width: 100%;
         background-color: rgb(251, 249, 249);
-        border-color: var(--dustyPink);
+        border-color: var(--dustypink);
         margin-bottom: 1.7vh;
     }
     .dropdown-menu {
