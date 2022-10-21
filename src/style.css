@@ -343,10 +343,10 @@ and (max-width : 440px) {
         width: 100%;
         background-color: white;
         border-color: var(--dustypink);
-        margin-bottom: 2.3vh;
+        margin-bottom: 2.6vh;
         border-radius: 0px;
         height: 6vh;
-        font-size: 130%;
+        font-size: 110%;
     }
     .dropdown-menu {
         width: 98%;
@@ -359,13 +359,13 @@ and (max-width : 440px) {
         margin-left: 7vw;
     }
     .about-section {
-        margin-top: 1vh;;
+        margin-top: 2vh;;
         margin-left: 3vw;
         margin-right: 3vw;
         filter: none;
     }
     .projects-section{
-        margin-top: 1vh;;
+        margin-top: 2vh;;
         margin-left: 3vw;
         margin-right: 3vw;
     }
@@ -381,7 +381,7 @@ and (max-width : 440px) {
         margin-right: 2vw;
     }
     .resume-section {
-        margin-top: 1vh;;
+        margin-top: 2vh;;
         margin-left: 3vw;
         margin-right: 3vw;
         filter: none;
