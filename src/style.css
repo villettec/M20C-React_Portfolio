@@ -8,6 +8,7 @@
     --bgColor: rgb(244, 241, 241);
     --dusty: #82856f;
     --dustypink: #e6d2d2;
+    --beige:  #f8f3f1;
 }
 
 main {
@@ -25,7 +26,7 @@ body {
 /* Sidebar */
 .sidebar {
     margin-top: -15vh;
-    background-color: #f8f3f1;
+    background-color: var(--beige);
     border: 1px solid var(--bgColor);;
     filter: drop-shadow(2px 2px 2px rgb(147, 146, 146));
     width: 20vw;
@@ -186,7 +187,7 @@ li {
 }
 
 .project-description {
-    background-color: #f7f2ed;;
+    background-color: var(--beige);
     align-items: bottom;
     height: 100%;
 
