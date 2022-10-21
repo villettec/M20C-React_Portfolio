@@ -25,7 +25,7 @@ body {
 /* Sidebar */
 .sidebar {
     margin-top: -15vh;
-    background-color: var(--bgColor);
+    background-color: #f7f2ed;
     border: 1px solid var(--bgColor);;
     filter: drop-shadow(2px 2px 2px rgb(147, 146, 146));
     width: 20vw;
@@ -186,7 +186,7 @@ li {
 }
 
 .project-description {
-    background-color: rgb(218, 214, 214);
+    background-color: #f7f2ed;;
     align-items: bottom;
     height: 100%;
 
