@@ -313,6 +313,14 @@ li {
     height: auto;
 }
 
+/* iPad mini or squished screen */
+@media screen 
+and (min-width : 250px) 
+and (max-width : 1050px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
 /* Mobile*/
 @media screen 
 and (min-width : 250px) 
