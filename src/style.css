@@ -1,7 +1,6 @@
 /* Google font imports for react */
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
 
 /* Main  */
 :root {
@@ -34,11 +33,12 @@ body {
 }
 
 .sidebar h1 {
-    font-family: "Dancing Script", cursive;
+    font-family: var(--font);
+    font-weight: 500;
     padding-top: 7vh;
-    font-size: 200%;
+    font-size: 150%;
     text-align: center;
-    filter: drop-shadow(1px 1px 1px rgb(224, 168, 191));
+    /* filter: drop-shadow(1px 1px 1px rgb(224, 168, 191)); */
 }
 
 .profile-pic {
@@ -55,6 +55,7 @@ nav {
     text-align: center;
     font-family: var(--font);
     font-size: 125%;
+    font-weight: 300;
     /* This is off center for some reason */
     margin-left: -2vw;
 }
@@ -126,6 +127,7 @@ li {
 .about-section article {
     font-family: var(--font);
     font-size: 125%;
+    font-weight: 300;
     padding: 3vw;
     line-height: 150%;
 }
@@ -249,6 +251,7 @@ li {
 .contact-section form {
     text-align: center;
     font-family: var(--font);
+    font-weight: 300;
 }
 
 .name-box {
@@ -286,6 +289,7 @@ li {
 
 .resume-section p {
     font-family: var(--font);
+    font-weight: 300;
     font-size: 150%;
     margin-top: -1vh;
 }
