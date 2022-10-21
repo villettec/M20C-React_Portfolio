@@ -350,7 +350,9 @@ and (max-width : 440px) {
         font-size: 110%;
     }
     .dropdown-menu {
-        width: 98%;
+        width: 105%;
+        border-radius: 0px !important;
+        border-color: white;
     }
     .dropdown-item-center {
         padding-left: 21vh;
