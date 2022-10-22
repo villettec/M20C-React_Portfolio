@@ -1,9 +1,13 @@
 import React from 'react'
+import { Helmet } from 'react-helmet-async';
 
 const AboutMe = () => {
   return (
     <div>
-       
+    <Helmet>
+    <title>Villette Comfort</title>
+    <meta name='description' content='Villette Comfort' />
+    </Helmet>
 
         <section className="about-section">
             <h2>About</h2>

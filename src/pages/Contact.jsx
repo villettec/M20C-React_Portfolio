@@ -1,4 +1,5 @@
 import React, { useRef, useState } from 'react';
+import { Helmet } from 'react-helmet-async';
 import emailjs from '@emailjs/browser';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -33,6 +34,12 @@ const Contact = () => {
   };
 
   return (
+    <div>
+    <Helmet>
+    <title>Contact Villette</title>
+    <meta name='description' content='Contact Villette' />
+    </Helmet>
+
     <section className="contact-section">
     <h2>Contact</h2>
     <form ref={form} onSubmit={sendEmail}>
@@ -63,6 +70,7 @@ const Contact = () => {
 
     </form>
     </section>
+    </div>
   );
 };
 

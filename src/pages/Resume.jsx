@@ -1,8 +1,14 @@
 import React from 'react'
+import { Helmet } from 'react-helmet-async';
 
 const Resume = () => {
   return (
     <div>
+    <Helmet>
+    <title>Villette's Resume</title>
+    <meta name='description' content="Villette's Resume" />
+    </Helmet>
+
       <section className="resume-section">
       <h1>Resume</h1>
       <p>
