@@ -45,7 +45,8 @@ const Projects = () => {
       </a>
       <div className="project-description">
         <h3>Gator Tracker</h3>
-        <p>This collaborative full-stack project allows users to post local neighborhood alligator sightings in the southeast United States.<a href="https://github.com/villettec/Gator_Aid" target="_blank" rel="noopener noreferrer"> Repo.</a></p>
+        <p>This collaborative full-stack project allows users to post local neighborhood alligator sightings in the southeast United States.<b> JS, CSS, HTML, Restful API, Node.js, Express.js, MySql<br/>
+        <a href="https://github.com/villettec/Gator_Aid" target="_blank" rel="noopener noreferrer"> Repo.</a></b></p>
       </div>
     </div>
     <div className="project-container">
@@ -77,7 +78,8 @@ const Projects = () => {
       <div className="project-description">
         <h3>Horiseon Refactor</h3>
         <p>This was an exercise in code refactoring to make the code apply to accessibility standards
-          and SEO optimization.<a href="https://github.com/villettec/M1C-Horiseon_Refactor/" target="_blank" rel="noopener noreferrer"> Repo</a></p>
+          and SEO optimization.<b> HTML, CSS<br/>
+          <a href="https://github.com/villettec/M1C-Horiseon_Refactor/" target="_blank" rel="noopener noreferrer"> Repo</a></b></p>
       </div>
     </div>
     <div className="project-container">
@@ -87,7 +89,7 @@ const Projects = () => {
       <div className="project-description">
         <h3>To Do List Maker</h3>
         <p>This front end To Do List website application enables a user to input tasks and mark them as completed which
-          strikes them out or later deletes them. Tasks can be filtered by completion.<b>JS, HTML, CSS<br/>
+          strikes them out or later deletes them. Tasks can be filtered by completion.<b> JS, HTML, CSS<br/>
           <a href="https://github.com/villettec/JS-To_Do_List/" target="_blank" rel="noopener noreferrer"> Repo</a></b></p>
       </div>
     </div>
