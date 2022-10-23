@@ -13,8 +13,8 @@ const Projects = () => {
       </a>
       <div className="project-description">
         <h3>Weather Dashboard</h3>
-        <p>In this application, a user searches a city and both the current and 5 day forecast
-          information is displayed by calling an API for data.<a href="https://github.com/villettec/M6C-Weather_Dashboard" target="_blank" rel="noopener noreferrer"> Repo.</a></p>
+        <p>In this front-end site, a user searches a city and both the current and 5 day forecast
+          is displayed via a weater API. <b>Moments.js, Bootstrap, JS, HTML, CSS, API<a href="https://github.com/villettec/M6C-Weather_Dashboard" target="_blank" rel="noopener noreferrer"> Repo.</a></b></p>
       </div>
     </div>
     <div className="project-container">
@@ -23,7 +23,7 @@ const Projects = () => {
       </a>
       <div className="project-description">
         <h3>School Resource Library</h3>
-        <p>This full stack JavaScript website uses 3 API's to enable students to view school library books based on subject.<a href="https://github.com/villettec/School_Resources" target="_blank" rel="noopener noreferrer"> Repo.</a></p>
+        <p>This front-end website uses 3 API's to enable students to view school library books based on subject.<b>JS, Bulma, HTML, CSS, API<a href="https://github.com/villettec/School_Resources" target="_blank" rel="noopener noreferrer"> Repo.</a></b></p>
       </div>
     </div>
     <div className="project-container">
