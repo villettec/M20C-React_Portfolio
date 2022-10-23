@@ -148,7 +148,8 @@ const Projects = () => {
       </a>
       <div className="project-description">
         <h3>Tech Blog</h3>
-        <p>This full-stack website allows a user to login and post new blog posts or comment on them.<a href="https://github.com/villettec/M14C-Tech_Blog" target="_blank" rel="noopener noreferrer"> Repo</a></p>
+        <p>This full-stack website allows a user to login and post new blog posts or comment on them.<b> JS, HTML, CSS, MySql, Node.js, Express.js, Restful API<br/>
+        <a href="https://github.com/villettec/M14C-Tech_Blog" target="_blank" rel="noopener noreferrer"> Repo</a></b></p>
       </div>
     </div>
     <div className="project-container">
