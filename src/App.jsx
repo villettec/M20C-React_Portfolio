@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 
+// For head metadata
 import { HelmetProvider } from 'react-helmet-async';
 import { Helmet } from "react-helmet";
 
