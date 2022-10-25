@@ -17,6 +17,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import "./style.css"
 
 function App() {
+
   const [currentPage, setCurrentPage] = useState("About");
   const handleChange = () => {
     if (currentPage === "About") {
@@ -32,9 +33,10 @@ function App() {
       return <Resume/>
     }
   };
+  
   return (
     <div>
-            <Helmet>
+        <Helmet>
         <title>Villette Comfort</title>
         <meta name="description" content="Villette Comfort's Portfolio"/>
         <meta name="keywords" content="front end developer, web developer, software developer"/>
