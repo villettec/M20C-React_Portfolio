@@ -40,6 +40,25 @@ const Projects = () => {
       </div>
     </div>
     <div className="project-container">
+      <a href="https://pacific-refuge-15715.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+        <img src="../../images/moodify.png" alt="Moodify Screenshot" className="capture" />
+      </a>
+      <div className="project-description">
+        <h3>Moodify</h3>
+        <p>This collaborative full stack project allows users to login and generate music playlists from the Spotify API.<b> MERN Stack, Restful API, Bootstrap<a href="https://github.com/batgal/Moodify" target="_blank" rel="noopener noreferrer"> Repo</a></b></p>
+      </div>
+    </div>
+    <div className="project-container">
+      <a href="https://tech-blog-001.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+        <img src="../../images/tech-blog-pic.png" alt="Tech Blog Screenshot" className="capture" />
+      </a>
+      <div className="project-description">
+        <h3>Tech Blog</h3>
+        <p>This full-stack website allows a user to login and post new blog posts or comment on them.<b> JS, HTML, CSS, MySql, Node.js, Express.js, Restful API<br/>
+        <a href="https://github.com/villettec/M14C-Tech_Blog" target="_blank" rel="noopener noreferrer"> Repo</a></b></p>
+      </div>
+    </div>
+    <div className="project-container">
       <a href="https://gator-tracker-app.herokuapp.com/" target="_blank" rel="noopener noreferrer">
         <img src="../../images/gator-tracker-pic.png" alt="Gator Tracker Screenshot" className="capture" />
       </a>
@@ -58,28 +77,6 @@ const Projects = () => {
         <p>Via prompts, a user chooses whether to include symbols, numbers, or letters in a generated
           password of their choice of length in this front-end web app. <b>JS, HTML, CSS<br/>
         <a href="https://github.com/villettec/M3C-Password_Generator" target="_blank" rel="noopener noreferrer"> Repo</a></b></p>
-      </div>
-    </div>
-    <div className="project-container">
-      <a href="https://villettec.github.io/M5C-Work_Day_Scheduler/" target="_blank" rel="noopener noreferrer">
-        <img src="../../images/workday-pic.png" alt="Workday Schedular Screenshot" className="capture" />
-      </a>
-      <div className="project-description">
-        <h3>Workday Scheduler</h3>
-        <p>In this front-end day planner, moments and jquery are used to show events of the past, present, and
-          future which the user can enter and erase.<b> JS, Moments.js, jQuery, HTML, CSS<br/>
-          <a href="https://github.com/villettec/M5C-Work_Day_Scheduler" target="_blank" rel="noopener noreferrer"> Repo</a></b></p>
-      </div>
-    </div>
-    <div className="project-container">
-      <a href="https://villettec.github.io/M1C-Horiseon_Refactor/" target="_blank" rel="noopener noreferrer">
-        <img src="../../images/horiseon-pic.png" alt="Horiseon Webpage Screenshot" className="capture" />
-      </a>
-      <div className="project-description">
-        <h3>Horiseon Refactor</h3>
-        <p>This was an exercise in code refactoring to make the code apply to accessibility standards
-          and SEO optimization.<b> HTML, CSS<br/>
-          <a href="https://github.com/villettec/M1C-Horiseon_Refactor/" target="_blank" rel="noopener noreferrer"> Repo</a></b></p>
       </div>
     </div>
     <div className="project-container">
@@ -143,16 +140,6 @@ const Projects = () => {
       </div>
     </div>
     <div className="project-container">
-      <a href="https://tech-blog-001.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-        <img src="../../images/tech-blog-pic.png" alt="Tech Blog Screenshot" className="capture" />
-      </a>
-      <div className="project-description">
-        <h3>Tech Blog</h3>
-        <p>This full-stack website allows a user to login and post new blog posts or comment on them.<b> JS, HTML, CSS, MySql, Node.js, Express.js, Restful API<br/>
-        <a href="https://github.com/villettec/M14C-Tech_Blog" target="_blank" rel="noopener noreferrer"> Repo</a></b></p>
-      </div>
-    </div>
-    <div className="project-container">
       <a href="https://youtu.be/SAfwCnJCVzI" target="_blank" rel="noopener noreferrer">
         <img src="../../images/social-network-api-pic.png" alt="Social Network API Screenshot" className="capture" />
       </a>
@@ -162,28 +149,44 @@ const Projects = () => {
       </div>
     </div>
     <div className="project-container">
-      <a href="https://pacific-refuge-15715.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-        <img src="../../images/moodify.png" alt="Moodify Screenshot" className="capture" />
+        <img src="../../images/placeholder.png" alt="Placeholder" className="capture" />
+      <div className="project-description">
+        <h3>Project</h3>
+        <p>Coming soon...</p>
+      </div>
+    </div>
+    <div className="project-container">
+        <img src="../../images/placeholder.png" alt="Placeholder" className="capture" />
+      <div className="project-description">
+        <h3>Project</h3>
+        <p>Coming soon...</p>
+      </div>
+    </div>
+
+    {/* Projects I'm not using. */}
+    {/* <div className="project-container">
+      <a href="https://villettec.github.io/M5C-Work_Day_Scheduler/" target="_blank" rel="noopener noreferrer">
+        <img src="../../images/workday-pic.png" alt="Workday Schedular Screenshot" className="capture" />
       </a>
       <div className="project-description">
-        <h3>Moodify</h3>
-        <p>This collaborative MERN full stack project allows authenticated users to login and generate music playlists based on the Spotify API.<a href="https://github.com/batgal/Moodify" target="_blank" rel="noopener noreferrer"> Repo</a></p>
+        <h3>Workday Scheduler</h3>
+        <p>In this front-end day planner, moments and jquery are used to show events of the past, present, and
+          future which the user can enter and erase.<b> JS, Moments.js, jQuery, HTML, CSS<br/>
+          <a href="https://github.com/villettec/M5C-Work_Day_Scheduler" target="_blank" rel="noopener noreferrer"> Repo</a></b></p>
       </div>
     </div>
     <div className="project-container">
-        <img src="../../images/placeholder.png" alt="Placeholder" className="capture" />
+      <a href="https://villettec.github.io/M1C-Horiseon_Refactor/" target="_blank" rel="noopener noreferrer">
+        <img src="../../images/horiseon-pic.png" alt="Horiseon Webpage Screenshot" className="capture" />
+      </a>
       <div className="project-description">
-        <h3>Project</h3>
-        <p>Coming soon...</p>
+        <h3>Horiseon Refactor</h3>
+        <p>This was an exercise in code refactoring to make the code apply to accessibility standards
+          and SEO optimization.<b> HTML, CSS<br/>
+          <a href="https://github.com/villettec/M1C-Horiseon_Refactor/" target="_blank" rel="noopener noreferrer"> Repo</a></b></p>
       </div>
-    </div>
-    <div className="project-container">
-        <img src="../../images/placeholder.png" alt="Placeholder" className="capture" />
-      <div className="project-description">
-        <h3>Project</h3>
-        <p>Coming soon...</p>
-      </div>
-    </div>
+    </div> */}
+
   </div>
 </section>
       
