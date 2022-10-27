@@ -24,7 +24,7 @@ const Projects = () => {
       </a>
       <div className="project-description">
         <h3>School Resource Library</h3>
-        <p>This front-end website uses 3 API's to enable students to view school library books based on subject. <b>JS, Bulma, HTML, CSS, API <br/>
+        <p>This front-end website uses 3 API's to enable students to view school library books based on subject. <b>JS, Bootstrap, HTML, CSS, API <br/>
         <a href="https://github.com/villettec/School_Resources" target="_blank" rel="noopener noreferrer"> Repo</a></b></p>
       </div>
     </div>
