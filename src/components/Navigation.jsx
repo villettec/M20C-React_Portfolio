@@ -52,7 +52,7 @@ const Navigation = (props) => {
     <a className="dropdown-item" href = "#About" onClick={()=>props.setCurrentPage("About")}>About</a>
     <a className="dropdown-item" href="#Portfolio" onClick={()=>props.setCurrentPage("Portfolio")}>Portfolio</a>
     <a className="dropdown-item" href="#Contact" onClick={()=>props.setCurrentPage("Contact")}>Contact</a>
-    <a className="dropdown-item" href="#Resume" onClick={()=>props.setCurrentPage("Resume")}>Resume</a>
+    {/* <a className="dropdown-item" href="#Resume" onClick={()=>props.setCurrentPage("Resume")}>Resume</a> */}
   </div>
   </div>
 
