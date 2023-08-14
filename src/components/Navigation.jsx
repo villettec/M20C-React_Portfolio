@@ -23,7 +23,7 @@ const Navigation = (props) => {
 <section className="sidebar">
   <h1>Villette Comfort</h1>
   {/*Default Navigation links, only shown in desktop*/}
-  <img className="profile-pic" src="../../images/profilepic.png" alt="Villette Comfort" width={240} height={240} />
+  <img className="profile-pic" src="../../images/profilepic.png" alt="V letter logo" width={240} height={240} />
   <nav>
     <ul>
       <li>
@@ -35,9 +35,9 @@ const Navigation = (props) => {
       <li>
         <a href="#Contact" className="contact-button button" onClick={()=>props.setCurrentPage("Contact")}>Contact</a>
       </li>
-      <li>
+      {/* <li>
         <a href="#Resume" className="resume-button button" onClick={()=>props.setCurrentPage("Resume")}>Resume</a>
-      </li>
+      </li> */}
     </ul>
   </nav>
 
