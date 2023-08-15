@@ -37,8 +37,8 @@ function App() {
   return (
     <div>
         <Helmet>
-        <title>Villette Comfort</title>
-        <meta name="description" content="Villette Comfort's Portfolio"/>
+        <title>Villette</title>
+        <meta name="description" content="Villette's Portfolio"/>
         <meta name="keywords" content="front end developer, web developer, software developer"/>
         <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
       <link

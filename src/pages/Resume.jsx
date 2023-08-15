@@ -12,10 +12,10 @@ const Resume = () => {
       <section className="resume-section">
       <h1>Resume</h1>
       <p>
-      <a href="../../images/vcomfort-resume.pdf" download>Download</a>
+      <a href="../../images/resume.pdf" download>Download</a>
       </p>
-      <img src="../../images/resume-1.png" alt="Villette Comfort's Resume page 1" className="resume-pic"/>
-      {/* <img src="../../images/resume-2.png" alt="Villette Comfort's Resume page 2" className="resume-pic"/> */}
+      <img src="../../images/resume-1.png" alt="Villette's Resume page 1" className="resume-pic"/>
+      {/* <img src="../../images/resume-2.png" alt="Villette's Resume page 2" className="resume-pic"/> */}
       </section>
     </div>
   )

@@ -21,7 +21,7 @@ const Navigation = (props) => {
   return (
     <>
 <section className="sidebar">
-  <h1>Villette Comfort</h1>
+  <h1>Villette</h1>
   {/*Default Navigation links, only shown in desktop*/}
   <img className="profile-pic" src="../../images/profilepic.png" alt="V letter logo" width={240} height={240} />
   <nav>
@@ -57,7 +57,7 @@ const Navigation = (props) => {
   </div>
 
   <div className="icon-links">
-    <a href="https://www.linkedin.com/in/villette-comfort-80ab86234/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} color="black"></FontAwesomeIcon></a>
+    <a href="https://www.linkedin.com/in/villettecomfort/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} color="black"></FontAwesomeIcon></a>
     <a href="https://github.com/villettec" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} color="black"></FontAwesomeIcon></a>
     <a href="mailto: villette@live.com" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faEnvelope} color="black"></FontAwesomeIcon></a>
   </div>

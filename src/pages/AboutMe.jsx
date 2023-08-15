@@ -5,8 +5,8 @@ const AboutMe = () => {
   return (
     <div>
     <Helmet>
-    <title>Villette Comfort</title>
-    <meta name='description' content='Villette Comfort' />
+    <title>Villette</title>
+    <meta name='description' content='Villette' />
     </Helmet>
 
         <section className="about-section">
