@@ -57,8 +57,8 @@ const Navigation = (props) => {
   </div>
 
   <div className="icon-links">
-    <a href="https://www.linkedin.com/in/villettecomfort/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} color="black"></FontAwesomeIcon></a>
-    <a href="https://github.com/villettec" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} color="black"></FontAwesomeIcon></a>
+    <a href="https://www.linkedin.com/in/villette1/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} color="black"></FontAwesomeIcon></a>
+    <a href="https://github.com/villette0" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} color="black"></FontAwesomeIcon></a>
     <a href="mailto: villette@live.com" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faEnvelope} color="black"></FontAwesomeIcon></a>
   </div>
 </section>

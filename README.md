@@ -16,7 +16,7 @@ The application is deployed on both Vercel and GitHub. While working on the code
 
 ## Links
 * [Deployment](https://villette.vercel.app)
-* [Repository](https://github.com/villettec/Portfolio-React)
+* [Repository](https://github.com/villette0/Portfolio-React)
 
 ## Screenshots
 ![image](./public/images/readme-screenshot.png)
