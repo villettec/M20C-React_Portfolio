@@ -68,8 +68,6 @@ const Contact = () => {
       <input type="submit" value="Send" />
       </p>
 
-      <p><em>Or reach by email at villette@live.com</em></p>
-
     </form>
     </section>
     </div>
