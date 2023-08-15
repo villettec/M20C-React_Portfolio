@@ -5,7 +5,7 @@ const AboutMe = () => {
   return (
     <div>
     <Helmet>
-    <title>Villette</title>
+    <title>About Villette</title>
     <meta name='description' content='Villette' />
     </Helmet>
 

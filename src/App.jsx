@@ -37,7 +37,7 @@ function App() {
   return (
     <div>
         <Helmet>
-        <title>Villette</title>
+        <title>Villette's Portfolio</title>
         <meta name="description" content="Villette's Portfolio"/>
         <meta name="keywords" content="front end developer, web developer, software developer"/>
         <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
