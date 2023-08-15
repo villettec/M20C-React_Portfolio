@@ -65,7 +65,7 @@ const Projects = () => {
       <div className="project-description">
         <h3>Gator Tracker</h3>
         <p>This collaborative full-stack project allows users to post local neighborhood alligator sightings in the southeast United States.<b> JS, CSS, HTML, Restful API, Node.js, Express.js, MySql<br/>
-        <a href="https://github.com/villette0/Gator_Aid" target="_blank" rel="noopener noreferrer"> Repo.</a></b></p>
+        <a href="https://github.com/villette0/Gator_Aid" target="_blank" rel="noopener noreferrer"> Repo</a></b></p>
       </div>
     </div>
     <div className="project-container">
@@ -97,7 +97,7 @@ const Projects = () => {
       <div className="project-description">
         <h3>README Generator</h3>
         <p>This back-end node application prompts the user with input questions in the terminal and generates a
-          README. A walkthrough video is above.<a href="https://github.com/villette0/M9C-Readme_Generator" target="_blank" rel="noopener noreferrer"> Repo</a>.</p>
+          README. A walkthrough video is above.<a href="https://github.com/villette0/M9C-Readme_Generator" target="_blank" rel="noopener noreferrer"> <b>Repo</b></a></p>
       </div>
     </div>
     <div className="project-container">
@@ -107,7 +107,7 @@ const Projects = () => {
       <div className="project-description">
         <h3>Team Generator</h3>
         <p>This node application prompts the user with questions about employees and generates a HTML
-          and CSS page. A walkthrough video is above. <a href="https://github.com/villette0/M10C-Team_Profile_Generator" target="_blank" rel="noopener noreferrer"> Repo</a>.</p>
+          and CSS page. A walkthrough video is above. <a href="https://github.com/villette0/M10C-Team_Profile_Generator" target="_blank" rel="noopener noreferrer"> <b>Repo</b></a></p>
       </div>
     </div>
     <div className="project-container">
@@ -116,7 +116,7 @@ const Projects = () => {
       </a>
       <div className="project-description">
         <h3>Note Taker</h3>
-        <p>This full stack express application allows the user to write and save notes which uses the express server to write and retrieve them from a database file.<a href="https://github.com/villette0/M11C-Note_Taker" target="_blank" rel="noopener noreferrer"> Repo.</a></p>
+        <p>This full stack express application allows the user to write and save notes which uses the express server to write and retrieve them from a database file.<a href="https://github.com/villette0/M11C-Note_Taker" target="_blank" rel="noopener noreferrer"> <b>Repo</b></a></p>
       </div>
     </div>
     <div className="project-container">
@@ -126,7 +126,7 @@ const Projects = () => {
       <div className="project-description">
         <h3>Employee Tracker</h3>
         <div className="p-div">
-        <p>This is a MySQl application that allows users to update the database via node prompts. A walkthrough video is above.<a href="https://github.com/villette0/M12C-Employee_Tracker" target="_blank" rel="noopener noreferrer"> Repo</a></p>
+        <p>This is a MySQl application that allows users to update the database via node prompts. A walkthrough video is above.<a href="https://github.com/villette0/M12C-Employee_Tracker" target="_blank" rel="noopener noreferrer"> <b>Repo</b></a></p>
         </div>
       </div>
     </div>
@@ -136,7 +136,7 @@ const Projects = () => {
       </a>
       <div className="project-description">
         <h3>E-Commerce Site Back-End</h3>
-        <p>An Express.js API is configured to use Sequelize to interact with a MySQL database. A walkthrough video is above.<a href="https://github.com/villette0/M13C-E-commerce_Back_End" target="_blank" rel="noopener noreferrer"> Repo</a></p>
+        <p>An Express.js API is configured to use Sequelize to interact with a MySQL database. A walkthrough video is above.<a href="https://github.com/villette0/M13C-E-commerce_Back_End" target="_blank" rel="noopener noreferrer"> <b>Repo</b></a></p>
       </div>
     </div>
     <div className="project-container">
@@ -145,7 +145,7 @@ const Projects = () => {
       </a>
       <div className="project-description">
         <h3>Social Network API</h3>
-        <p>This social network api allows users to post/edit/delete thoughts, reactions, and friends using Express.js for routing, MongoDB database, and Mongoose ODM.<a href="https://github.com/villette0/M18C-Social_Network_API" target="_blank" rel="noopener noreferrer"> Repo</a></p>
+        <p>This social network api allows users to post/edit/delete thoughts, reactions, and friends using Express.js for routing, MongoDB database, and Mongoose ODM.<a href="https://github.com/villette0/M18C-Social_Network_API" target="_blank" rel="noopener noreferrer"> <b>Repo</b></a></p>
       </div>
     </div>
     <div className="project-container">
@@ -172,7 +172,7 @@ const Projects = () => {
         <h3>Workday Scheduler</h3>
         <p>In this front-end day planner, moments and jquery are used to show events of the past, present, and
           future which the user can enter and erase.<b> JS, Moments.js, jQuery, HTML, CSS<br/>
-          <a href="https://github.com/villette0/M5C-Work_Day_Scheduler" target="_blank" rel="noopener noreferrer"> Repo</a></b></p>
+          <a href="https://github.com/villette0/M5C-Work_Day_Scheduler" target="_blank" rel="noopener noreferrer"> <b>Repo</b></a></b></p>
       </div>
     </div>
     <div className="project-container">
@@ -183,7 +183,7 @@ const Projects = () => {
         <h3>Horiseon Refactor</h3>
         <p>This was an exercise in code refactoring to make the code apply to accessibility standards
           and SEO optimization.<b> HTML, CSS<br/>
-          <a href="https://github.com/villette0/M1C-Horiseon_Refactor/" target="_blank" rel="noopener noreferrer"> Repo</a></b></p>
+          <a href="https://github.com/villette0/M1C-Horiseon_Refactor/" target="_blank" rel="noopener noreferrer"> <b>Repo</b></a></b></p>
       </div>
     </div> */}
 
